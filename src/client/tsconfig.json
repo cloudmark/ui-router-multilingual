@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "baseUrl": "",
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": false,
+    "removeComments": true,
+    "noLib": false,
+    "lib": ["es2016", "dom"],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "pretty": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitUseStrict": false,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
+    "traceResolution": true,
+    "typeRoots": [
+      "../../node_modules/@types",
+      "../../node_modules"
+    ],
+    "types": [
+      "node",
+      "jasmine",
+      "systemjs"
+    ],
+    "paths": {
+      "ui-router-core": ["../../node_modules/ui-router-core/lib-esm"],
+      "ui-router-ng2": ["../../node_modules/ui-router-ng2/lib"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src"
+  ],
+  "compileOnSave": false
+}
